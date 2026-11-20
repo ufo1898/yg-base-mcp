@@ -14,6 +14,7 @@ MCP server for **live Base chain data, paid per call in USDC over x402**. No API
 | `yields` | 0.002 USDC | live supply rates across Aave, Moonwell, Compound III on Base |
 | `arb` | 0.002 USDC | cross-venue round-trip spreads (Aerodrome / Uniswap V3 / Sushi), incl. gas and break-even size |
 | `pools` | 0.002 USDC | pool withdrawability: cash on hand, utilisation, whether you can actually exit |
+| `tokenrisk` | 0.005 USDC | risk check for any Base token: honeypot verdict, buy/sell tax, safe exit size, pair age, holder concentration |
 | `plan` | 0.005 USDC | given size and horizon: where to put it, net yield after gas, minimum size worth moving |
 | `wallet` | 0.010 USDC | health check for any Base wallet: balances, yield positions, exit feasibility, gas runway, risk list |
 

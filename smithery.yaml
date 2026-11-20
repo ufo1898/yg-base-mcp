@@ -1,0 +1,12 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      upstream:
+        type: string
+        description: Hosted MCP endpoint to proxy to
+        default: https://yg-base.lxin952.workers.dev/mcp
+    required: []
+  commandFunction: |-
+    (config) => ({ command: 'npx', args: ['-y', 'yg-base-mcp'], env: { YG_BASE_MCP_URL: config.upstream || 'https://yg-base.lxin952.workers.dev/mcp' } })

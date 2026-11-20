@@ -1,0 +1,13 @@
+{
+  "name": "yg-base-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for live Base chain data paid per call over x402 (yields, cross-venue spreads, pool withdrawability, wallet health). Buyer needs no ETH.",
+  "type": "module",
+  "bin": { "yg-base-mcp": "index.mjs" },
+  "main": "index.mjs",
+  "files": ["index.mjs", "README.md", "LICENSE"],
+  "scripts": { "start": "node index.mjs" },
+  "keywords": ["mcp", "modelcontextprotocol", "x402", "base", "defi", "yields", "usdc", "agent", "payments"],
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}

@@ -1,4 +1,5 @@
 # yg-base-mcp
+[![ufo1898/yg-base-mcp MCP server](https://glama.ai/mcp/servers/ufo1898/yg-base-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ufo1898/yg-base-mcp)
 
 MCP server for **live Base chain data, paid per call in USDC over x402**. No API key, no signup, and the buyer needs **no ETH** — payments ride EIP-3009 (`transferWithAuthorization`) and the seller submits the transfer, so gas is on the seller.
 
